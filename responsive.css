@@ -1,0 +1,157 @@
+@media screen and (max-width: 576px) {
+    nav{
+        display: none;
+    }
+    img{
+        width: 100%;
+    }
+    .header-main{
+        width: 100%;
+        height: 550px;
+        background-image: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%), url(./Images/heading\ img.png);
+        margin: 20px auto;
+        border-radius: 16px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .header-text{
+        width: 100%;
+        /* height: 156px;  */
+        margin: 0 auto;
+        text-align: center; 
+    }
+    .header-text h1 {
+        padding-top: 32px;
+        font-size: 22px;
+    }
+    .header-text p{
+        font-size: 14px;
+        width: 60%;
+        margin: 0 auto;
+        /* padding-top: 10px; */
+        padding-bottom: 10px;
+    }
+    .scerch-form {
+        width: 60%;
+        flex-direction: column;
+        height: auto;
+        margin-top: 71px;
+    }
+    input{
+        width: 255px;
+        height: 52px;
+        border-radius: 8px;
+    }
+    .item{
+        width: 255px;
+        height: 52px;
+        border-radius: 8px;
+        margin: 10px 0;
+    }
+    .scerch-form button{
+        width: 255px;
+        height: 52px;
+        border-radius: 8px;
+        background-color: var(--main-color);
+        color: white;
+    }
+
+
+/* Our Popular Tours */
+
+    .tour-main{
+        margin: 40px 25px;
+        flex-direction: column;
+    }
+    .tour-text p{
+        width: 100%;
+        margin: 30px 0;
+    }
+    .tour-text li{
+        width: 100%;
+        margin: 30px 0;
+    }
+    .tour-text button{
+        margin-bottom: 3%;
+    }
+    .tour-main img{
+        width: 100%;
+    }
+
+
+    /* Choose Your Destination */
+    .destination img{
+        width: 335px;
+        height: 176px;
+    }
+    .destination{
+        /* margin: 40px 15px; */
+        margin: 0 auto;
+    }
+    .destination h1{
+        font-size: 20px;
+    }
+    .destination p{
+        width: 80%;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .first-destination{
+        grid-template-columns: 1fr;
+    }
+    .second-destination{
+        grid-template-columns: 1fr;
+    }
+    .one h1{
+        top: 43%;
+        left: 40%;
+    }
+
+
+    /* Why Choose Us */
+
+
+    .choose-main{
+        margin: 0 15px;
+    }
+    .choose-head p{
+        width: 80%;
+    }
+    .choose-services{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .service-one{
+        width: 100%;
+        height: 284px;
+        padding: 32px 55px 32px 32px;
+        background: rgba(251, 181, 99, 0.05);
+        margin: 20px;
+        border-radius: 16px;
+    }
+    .second-servie{
+        background-color: rgba(41, 206, 246, 0.05);
+    }
+
+
+    
+/* Deals & Discounts */
+
+    .deal-main{
+        margin: 60px 10px;
+    }
+    .deal-1{
+        height: 500px;
+        width: 100%;
+    }
+    .deal1-box,.deal2-box {
+        width: 90%;
+        margin: 85px 20px 20px;
+    }
+    iframe{
+        width: 100%;
+        height: 350px;
+    }
+
+}

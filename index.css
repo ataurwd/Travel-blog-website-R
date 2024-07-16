@@ -118,6 +118,7 @@ select{
     border-radius: 8px;
     background-color: var(--main-color);
     color: white;
+    border: none;
 }
 
 .scerch-form i {
