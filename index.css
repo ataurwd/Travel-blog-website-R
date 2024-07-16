@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body{
+    font-family: "Mulish", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-color: rgb(255, 84, 0);
+    --black-color: rgb(19, 19, 24);
+    --pragrap-color: rgb(90, 90, 93);
+}
+
+
+
+
+/* style start here */
+nav {
+    margin: 20px 135px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+}
+.logo h1 {
+    margin: 0px 0 0 10px;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 45px;
+}
+.logo span{
+    color: var(--main-color);
+}
+ul {
+    display: flex;
+    margin-top: 15px;
+}
+ul li {
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+    padding: 0 29px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    color: var(--black-color);
+}
+
+/* heading section */
+.header-main{
+    width: 1170px;
+    height: 500px;
+    background-image: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%), url(./Images/heading\ img.png);
+    margin: 50px auto;
+    border-radius: 16px;
+}
+.header-text{
+    width: 676px;
+    height: 156px; 
+    margin: 0 auto;
+    text-align: center; 
+}
+.header-text h1 {
+    padding-top: 104px;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: 0%;
+    color: white;
+}
+.header-text p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.scerch-form {
+    position: relative;
+    width: 800px;
+    height: 84px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    align-items: center;
+    text-align: center;
+    margin: 136px auto 0;
+    padding: 17px 0;
+}
+input{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+}
+input[type="text"] {
+    padding: 0 0 0 24px;
+    font-size: 16px;
+}
+select{
+    padding: 0 20px 0 24px;
+    font-size: 16px;
+}
+.item{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+}
+select{
+    padding: 0 20px 0 24px;
+    font-size: 16px;
+}
+.scerch-form button{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background-color: var(--main-color);
+    color: white;
+}
+
+.scerch-form i {
+    position: relative;
+    padding-right: 15px;
+}
+
+
+
+
+/* Our Popular Tours */
+
+
+
+
+.tour-main{
+    margin: 80px 135px;
+    display: flex;
+}
+.tour-text h1{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    margin-bottom: 15px;
+}
+.tour-text p{
+    width: 80%;
+    margin: 30px 0;
+}
+.tour-text li{
+    width: 80%;
+    margin: 30px 0;
+}
+.tour-text button{
+    border: none;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background-color: var(--main-color);
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+
+
+/* Choose Your Destination */
+
+.destination{
+    margin: 50px 135px;
+}
+.destination h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+.destination p{
+    width: 50%;
+    margin: 0 auto 50px;
+    text-align: center;
+}
+.first-destination{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+.one{
+    position: relative;
+}
+.one img, .two img{
+    background-color:rgba(16, 16, 17, 0.2) ;
+    background-blend-mode: overlay;
+    border-radius: 16px;
+    width: 100%;
+    height: 100%;
+}
+.two{
+    position: relative;
+}
+.one h1{
+    position: absolute;
+    top: 43%;
+    left: 40%;
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 35px;
+}
+.two h1 {
+    position: absolute;
+    top: 47%;
+    left: 39%;
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 35px;
+}
+
+/* second-destination */
+
+.second-destination{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    gap: 24px;
+    justify-content: center;
+    margin: 30px 0;
+}
+.three, .four, .five{
+    position: relative;
+}
+
+.three h1, .four h1, .five h1{
+    position: absolute;
+    /* top: 47%;
+    left: 39%; */
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 35px;
+}
+.three h1{
+    top: 45%;
+    left: 39%;
+}
+
+.four h1 {
+    top: 45%;
+    left: 30%;
+}
+.five h1 {
+    top: 45%;
+    left: 29%;
+}
+
+
+/* Why Choose Us */
+
+
+.choose-main{
+    margin: 0 135px;
+}
+.choose-head{
+    text-align: center;
+}
+.choose-head h1{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    margin: 20px 0;
+}
+.choose-head p{
+    width: 50%;
+    margin: 10px auto 30px;
+}
+.service-one{
+    width: 573px;
+    height: 284px;
+    padding: 32px 55px 32px 32px;
+    background: rgba(251, 181, 99, 0.05);
+    margin: 24px;
+    border-radius: 16px;
+}
+.service-one img{
+    width: 64px;
+    height: 64px;
+}
+.service-one h2{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 30px;
+    margin: 20px 0;
+}
+.service-one p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.choose-services{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.last-service{
+    margin: 0 auto 70px;
+}
+.second-servie{
+    background-color: rgba(41, 206, 246, 0.05);
+}
+
+
+
+
+/* Deals & Discounts */
+
+.deal-main{
+    margin: 50px 135px;
+}
+
+.deal-1{
+    background-image: url(./Images/Group\ 39.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 1170px;
+    position: relative;
+    margin: 30px 0;
+}
+.deal-2{
+    background-image: url(./Images/Group\ 40.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 1170px;
+    position: relative;
+    margin: 30px 0;
+}
+
+.deal1-box,.deal2-box {
+    width: 48%;
+    height: 389px;
+    padding: 50px 77px 50px 50px;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    backdrop-filter: blur(0px);
+    background: rgba(255, 255, 255, 0.8);
+    position: absolute;
+}
+.deal1-box{
+    margin: 56px 56px 56px 535px;
+}
+.deal2-box {
+    margin: 56px;
+}
+.deal1-box h1, .deal2-box h1{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 30px;
+    padding: 20px 0;
+}
+.deal-icons{
+    display: flex;
+}
+.deal-icons h6, .deal-icons h6{
+    padding: 0 10px 0 0;
+}
+.deal1-box p, .deal2-box p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0px 0 20px;
+    color: var(--pragrap-color);
+}
+
+.deal1-box h3, .deal2-box h3{
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 25px;
+    padding-bottom: 20px;
+    color: var(--main-color);
+}
+.btn-service{
+    width: 150px;
+    height: 52px;
+    border-radius: 8px;
+    background: var(--main-color);
+    color: white;
+    border: none;
+}
