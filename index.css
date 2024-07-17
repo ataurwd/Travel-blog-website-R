@@ -16,7 +16,6 @@ body{
 
 
 
-
 /* style start here */
 nav {
     margin: 20px 135px;
@@ -90,8 +89,8 @@ ul li a {
     margin: 136px auto 0;
     padding: 17px 0;
 }
-input{
-    width: 174px;
+.heding-input{
+    /* width: 174px; */
     height: 52px;
     border-radius: 8px;
 }
@@ -229,7 +228,7 @@ select{
     justify-content: center;
     margin: 30px 0;
 }
-.three, .four, .five{
+.three, .four, .five , .six, .seven{
     position: relative;
 }
 
@@ -237,7 +236,7 @@ select{
     position: absolute;
     /* top: 47%;
     left: 39%; */
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 28px;
     font-weight: 800;
     line-height: 35px;
@@ -250,13 +249,38 @@ select{
 .four h1 {
     top: 45%;
     left: 30%;
+    
 }
 .five h1 {
     top: 45%;
     left: 29%;
 }
+.third-destination{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    justify-content: center;
+    /* margin: 30px 0; */
+    gap: 24px;
 
-
+}
+.six h1 {
+    position: absolute;
+    top: 45%;
+    left: 33%;
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 35px;
+}
+.seven h1 {
+    position: absolute;
+    top: 45%;
+    left: 37%;
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 35px;
+}
 /* Why Choose Us */
 
 
@@ -319,12 +343,12 @@ select{
     margin: 50px 135px;
 }
 
-.deal-1{
+.deal-1 {
     background-image: url(./Images/Group\ 39.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
-    width: 1170px;
+    width: 100%;
     position: relative;
     margin: 30px 0;
 }
@@ -333,7 +357,7 @@ select{
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
-    width: 1170px;
+    width: 100%;
     position: relative;
     margin: 30px 0;
 }
@@ -349,8 +373,10 @@ select{
     background: rgba(255, 255, 255, 0.8);
     position: absolute;
 }
-.deal1-box{
-    margin: 56px 56px 56px 535px;
+.deal1-box {
+    /* margin: 56px 56px 56px 689px; */
+    top: 12%;
+    left: 49%;
 }
 .deal2-box {
     margin: 56px;
@@ -391,3 +417,84 @@ select{
     border: none;
 }
 
+
+
+
+
+/* Newsletter */
+
+
+
+
+.newsletter{
+    margin: 50px 135px;
+    display: flex;
+    justify-content: space-between;
+}
+.newsletter-text{
+    width: 474px;
+    height: 422px;
+    padding: 40px;
+    border: 1px solid var(--main-color);
+    border-radius: 15px;
+}
+.newsletter-text h1 {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 30px;
+    margin-bottom: 18px;
+}
+.newsletter-text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+.input {
+    width: 393px;
+    height: 52px;
+    margin: 15px 0;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(19, 19, 24, 0.05);
+}
+input[type="email"] {
+    padding: 0 0 0 24px;
+    font-size: 16px;
+}
+
+.newsletter-text button{
+    width: 393px;
+    height: 52px;
+    background-color: var(--main-color);
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+
+.travel-main{
+    position: relative;
+    color: white;
+}
+.travel-card {
+    position: absolute;
+    width: 324px;
+    height: 120px;
+    border-radius: 16px;
+    background-color: var(--main-color);
+    text-align: center;
+    padding: 35px 41px;
+    left: 50%;
+    top: 58%;
+    transform: rotate(-19deg);
+}
+.travel-card h3{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.travel-card h1 {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 40px;
+}
